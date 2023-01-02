@@ -28,9 +28,13 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-CUSTOM_APPS = ["common.apps.CommonConfig",
-               "users.apps.UsersConfig",
-               "rooms.apps.RoomsConfig"]
+CUSTOM_APPS = [
+    "common.apps.CommonConfig",
+    "users.apps.UsersConfig",
+    "rooms.apps.RoomsConfig",
+    "experiences.apps.ExperiencesConfig",
+    "categories.app.CategoriesConfig"
+]
 
 SYSTEM_APPS = [
     "django.contrib.admin",
